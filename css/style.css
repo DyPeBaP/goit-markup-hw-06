@@ -839,7 +839,7 @@ img {
 }
 
 .contacts-form-box:checked + .modal-text-span::before  {
-	background-image: url(../images/Vectorh.svg);
+	background-image: url(../images/vectorh.svg);
 	background-color: #2196F3;
   background-position: center;
   cursor: pointer;
