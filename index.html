@@ -519,6 +519,21 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="footer-email-window">
+                <p class="footer-wraper-text">Подпишитесь на рассылку</p>
+                <form action="#" class="footer-signup-form" name="footer-signup-form">
+                    <label class="modal-text">
+                        <input type="email" name="user-email" placeholder="E-mail" required class="contacts-form-footer">
+                    </label>
+                    <button type="submit" class="button-footer">     
+                                    Подписаться
+                        <svg class="footer-wraper-icon-button">
+                            <use href="./images/icon-telegram.svg#icon"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
        
     </footer>
@@ -570,8 +585,12 @@
                     <p class="modal-form-text-label">Комментарий</p>
                     <textarea name="user-massage" class="modal-form-message" placeholder="Введите текст"></textarea>
                 </label>
-                <input type="checkbox" id="user-term" name="user-term" class="modal-form-term">
-                <label for="user-term" class="modal-form-check-desc">Соглашаюсь с рассылкой и принимаю<a href="#"><span class="form-check-desc"> Условия до говора</span></a></label>
+
+                    <input type="checkbox" id="user-term" name="user-term" class="contacts-form-box visually-hidden">
+                     <label for="user-term" class="modal-text-span">Соглашаюсь с рассылкой и принимаю<a href="#">
+                    <span class="text-span">Условия до говора</span>
+                </a></label>
+
                 <button type="submit" class="modal-form-btn">Отправить</button>
             </form>
         </div>
